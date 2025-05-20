@@ -1,0 +1,8 @@
+
+create new python environment with python3.9
+install/execute
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+pip install cython opencv-python pycocotools matplotlib
+git clone https://github.com/facebookresearch/detectron2.git
+cd detectron2
+pip install -e .
