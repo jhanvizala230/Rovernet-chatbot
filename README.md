@@ -5,6 +5,13 @@ This project combines **Detectron2** for computer vision and **Ollama** (LLM) fo
 - Visual question answering
 - Scene understanding
 
+## 🧠 Features
+
+- Detects objects using Detectron2 trained on custom or COCO dataset
+- Natural language interaction via LLaVA:7b using Ollama
+- Scene understanding pipeline combining CV + LLMs
+- Modular, GPU-accelerated inference
+
 ## Prerequisites
 
 ### Hardware Used
