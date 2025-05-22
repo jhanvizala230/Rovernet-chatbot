@@ -1,15 +1,15 @@
 # RoverNet Chatbot - AI-Powered Object Detection Assistant 🤖🔍
 
 This project combines **Detectron2** for computer vision and **Ollama** (LLM) for natural language interactions to create an intelligent rover assistant capable of:
-- Real-time object detection
+- Image-based object and its instance detection
 - Visual question answering
 - Scene understanding
 
 ## Prerequisites
 
-### Hardware Requirements
+### Hardware Used
 - NVIDIA GPU (with CUDA 12.8 support)
-- Webcam (for live detection) or image dataset
+- image dataset
 
 ### Software Requirements
 - Windows 10/11 (64-bit)
@@ -26,7 +26,6 @@ python -m venv rovernet_env
 
 ### 2. Install PyTorch with CUDA 12.8
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
-
 
 ### 3. Install Detectron2 and Dependencies
 pip install cython opencv-python pycocotools matplotlib
